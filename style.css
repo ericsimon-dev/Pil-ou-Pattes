@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Chivo:ital,wght@1,700&family=Heebo:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+    font-size: 62,5%;
+    text-decoration: none;
+}
+
+/* Barre de naviguation */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    transition: all 0.3s ease;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: #D289AE;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li a:hover{
+    color: #021C1E;
+}
+
+/* Bouton de menu */
+.menu-btn{
+    color: #C3E7C4;
+    font-size: 23px;
+    cursor: pointer;
+    border: 1px #E1F4E4 solid;
+    padding: 2px 10px 0px 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+/* Section présentation de l'asso */
+
+.h2-title {
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 1.5vh;
+    text-align: center;
+    color: #5B446C;
+    margin-bottom: 4.5vh;
+}
+
+.first-section .presentation img {
+    height: auto;
+    width: 100vw;
+}
+.main-title {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 4rem;
+    color: #D289AE;
+    padding-top: 1 vh;
+}
+
+.first-section {
+    width: 100vw;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.para-1 {
+    margin: 10vw;
+    color: #5B446C;
+    text-align: center;
+}
+
+.text-presentation {
+    background: #E1F4E4;
+    border: 1px solid #C3E7C4;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+    border-top-left-radius: 50% 20%;
+    border-top-right-radius: 50% 20%;
+    box-shadow: 0px 4px 5px 0px rgba(210,137,174,0.65);
+-webkit-box-shadow: 0px 4px 5px 0px rgba(210,137,174,0.65);
+-moz-box-shadow: 0px 4px 5px 0px rgba(210,137,174,0.65);
+}
+
+/* Section présentation des différents animaux */
+
+.h3-accueil {
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 7vh;
+    text-align: center;
+    color: #5B446C;
+    margin-bottom: 4.5vh;
+}
+
+.all-animals {
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.animals {
+    height: auto;
+    width: 30vw;
+    border-radius: 50px;
+}
+
+.rabbit-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #D289AE;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-radius: 30px 30px 0 0;
+    border-bottom: 2px white solid;
+}
+.dog-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background: #E1F4E4;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-bottom: 2px white solid;
+}
+
+.cat-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #D289AE;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-bottom: 2px white solid;
+}
+
+.guinea-pig-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background: #E1F4E4;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    border-radius: 0 0 30px 30px;
+}
+
+.button-pink {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #C3E7C4;
+    color: #5B446C;
+    border: none;
+}
+
+.button-green {
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #D289AE;
+    color: #E1F4E4;
+    border: none;
+}
+
+/* Section motivation de l'association */
+
+.motivations {
+    margin: 5vh 5vw 5vh 5vw;
+    padding: 10px;
+    background-color: #E1F4E4;
+    border-radius: 50px;
+    box-shadow: 0px 4px 5px 0px rgba(210,137,174,0.65);
+-webkit-box-shadow: 0px 4px 5px 0px rgba(210,137,174,0.65);
+-moz-box-shadow: 0px 4px 5px 0px rgba(210,137,174,0.65);
+}
+
+.para-2 {
+    margin-top: 3vh;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer {
+    margin-top: 6vh;
+    background-color: #C3E7C4;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    border-top: 1px solid #5B446C;
+}
+
+.icons {
+    margin: 1vh 1vw 0 1vw;
+}
+
+.a-icons {
+    color: black;
+}
+
+/* Page évènements */
+
+.para-3 {
+    text-align: justify;
+    padding-left: 6.5vw;
+    padding-right: 6.5vw;
+    margin-bottom: 8vh;
+}
+
+.map {
+    padding-top: 2vh;
+    display: block;
+    border: none;
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+}
+
+.salon-content {
+    text-align: center;
+    margin: 1vh 2vh 2vh 2vh;
+}
+
+.evenement {
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 5vw;
+    border-radius: 30px;
+}
+
+.evenement-2 {
+    border: 1px solid black;
+    width: 90%;
+    margin-left: 5vw;
+    margin-top: 3vh;
+    border-radius: 30px;
+}
+
+.titre-4 {
+    text-align: center;
+    margin-top: 2vh;
+    font-family: 'Chivo', sans-serif;
+    font-size: large;
+}
+
+.all-card {
+    display: block;
+}
+
+.two-cards {
+    display: block;
+}
+/* Formulaire de contact */
+
+.form-content {
+    text-align: center;
+    margin: 2vh 3vw 10vh 3vw;
+    font-size: 1.2rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-input {
+    margin-left: 10vw;
+    margin-bottom: 1.5vh;
+    width: 50vw;
+    border: 2px solid #C3E7C4;
+    border-radius: 4px;
+    text-indent: 3vw;
+    font-size: 0.8rem;
+}
+
+.form-container .text-area {
+    width: 150%;
+    height: 110px;
+    line-height: 150%;
+}
+
+.submit {
+    margin-left: 10vw;
+    background-color: #C3E7C4;
+    color: #5B446C;
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+}
+
+.h2-contact {
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.4rem;
+    margin-left: 15vw;
+    text-align: center;
+    color: #5B446C;
+    margin-bottom: 4vh;
+}
+/* Media queries barre de naviguation */
+
+@media (max-width: 1024px){
+    .menu-btn{
+        display: block;
+        z-index: 2;
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #E1F4E4;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .menu-btn {
+        margin-left: 20px;
+    }
+}
+/* Media queries page accueil*/
+
+@media (min-width: 768px){
+    .first-section .presentation img {
+        width: 80vw;
+    }
+    .h2-title {
+        font-size: 1.6rem;
+    }
+    .main-title {
+        font-size: 5rem;
+    }
+    .text-presentation {
+        width: 80%;
+        align-items: center;
+        margin-left: 10%;
+    }
+    .para-1 {
+       font-size: 1.2rem; 
+    }
+    .h3-accueil {
+        font-size: 1.6rem;
+    }
+    .button-pink {
+        padding: 20px;
+        font-size: 1.1rem;
+    }
+    .button-green {
+        padding: 20px;
+        font-size: 1.1rem;
+    }
+    .all-animals {
+        margin-left: 7vw;
+        margin-right: 7vw;
+    }
+}
+
+@media (min-width: 1024px){
+    .first-section .presentation img {
+        width: 60vw;
+    }
+    .h2-title {
+        font-size: 1.8rem;
+    }
+    .main-title {
+        font-size: 6rem;
+    }
+    .text-presentation {
+        margin-top: 10vh;
+        width: 70%;
+        align-items: center;
+        margin-left: 15%;
+    }
+    .para-1 {
+       font-size: 1.4rem; 
+    }
+    .h3-accueil {
+        font-size: 1.8rem;
+    }
+    .all-animals {
+        margin-left: 8vw;
+        margin-right: 8vw;
+    }
+}
+
+@media (min-width: 1280px){
+    .first-section .presentation img {
+        width: 40vw;
+    }
+    .h2-title {
+        font-size: 2rem;
+    }
+    .main-title {
+        font-size: 7rem;
+    }
+    .para-1 {
+       font-size: 1.4rem; 
+    }
+    .h3-accueil {
+        font-size: 2rem;
+    }
+    .button-pink {
+        padding: 30px;
+        font-size: 1.3rem;
+    }
+    .button-green {
+        padding: 30px;
+        font-size: 1.3rem;
+    }
+    .motivations {
+        margin: 10vh 10vw 10vh 10vw;
+        padding: 15px;
+    }
+}
+
+@media (min-width: 1536px){
+    .first-section .presentation img {
+        width: 40vw;
+    }
+    .h2-title {
+        font-size: 2.2rem;
+    }
+    .main-title {
+        font-size: 8rem;
+    }
+    .para-1 {
+        font-size : 1.6rem;
+    }
+    .h3-accueil {
+        font-size: 2.2rem;
+    }
+    .motivations {
+        margin: 15vh 15vw 15vh 15vw;
+        padding: 20px;
+    }
+    .all-animals {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 15vh;
+    }
+}
+
+/* Media queries page évènements/contact */
+
+@media (min-width: 768px){
+    .contact-input {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1024px){
+    .two-cards {
+        display: flex;
+    }
+    .evenement-cat {
+        margin-right: 5vw;
+    }
+    .contact-input {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1280px){
+    .all-card {
+        display: flex;
+        margin: 0;
+    }
+    .evenement {
+        width: 30vw;
+        margin: 0 4% 0 6%;
+    }
+    .evenement-2 {
+        width: 30vw;
+        margin: 0 0 0 6%;
+    }
+    .two-cards {
+        display: flex;
+    }
+    .contact-input {
+        width: 75%;
+    }
+}
